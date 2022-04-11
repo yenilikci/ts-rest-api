@@ -1,0 +1,40 @@
+{
+  "name": "ts-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yenilikci/ts-rest-api.git",
+  "author": "yenilikci <57464067+yenilikci@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1", 
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.10",
+    "nanoid": "^3.3.2",
+    "pino": "^7.10.0",
+    "pino-pretty": "^7.6.1",
+    "zod": "^3.14.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/config": "^0.0.41",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/lodash": "^4.14.181",
+    "@types/mongoose": "^5.11.97",
+    "@types/nanoid": "^3.0.0",
+    "@types/node": "^17.0.23",
+    "@types/pino": "^7.0.5",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
