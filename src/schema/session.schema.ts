@@ -8,5 +8,5 @@ export const createSessionSchema = object({
         password: string({
             required_error: "Password is required",
         }),
-    })
-})
+    }),
+});
